@@ -7,3 +7,4 @@ if ($_GET['run']) {
 
 <!-- This link will add ?run=true to your URL, myfilename.php?run=true -->
 <a href="?run=true">Click Me!</a>
+
