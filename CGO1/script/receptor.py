@@ -24,7 +24,8 @@ def chain_only(recep, chain_names):
     for chain in chains:
         if chain not in chain_names:
             for r in recep.sequence(chain).residues:
-                recep.deleteResidue(r)
+                if r is not None:
+                    recep.deleteResidue(r)
         
 #MAIN
 model = chimera.openModels.open('input/receptor.pdb')
