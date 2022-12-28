@@ -3,6 +3,7 @@ BEGIN {
 	"awk 'BEGIN { FS = \", \" } NR == 2 { print $11 }'\
 	< output/receptor.pdbqt_predictions.csv" | getline atom_string
 	min[1] = 9000; min[2] = 9000; min[3] = 9000 
+	max[1] = -9000; max[2] = -9000; max[3] = -9000 
 	scaling = 1.1
 	n = split(atom_string, atoms, " ")
 	j = 1
