@@ -1,5 +1,5 @@
 BEGIN { 
-	OD = "/home/aldo/pro/falcon/script/output"
+	OD = "/home/arturo/proyectoAF/app2/script/output"
 	letrs[1] = "x"; letrs[2] = "y"; letrs[3] = "z"
 	min[1] = 9000; min[2] = 9000; min[3] = 9000 
 	max[1] = -9000; max[2] = -9000; max[3] = -9000 
