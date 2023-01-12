@@ -3,16 +3,16 @@
   <head>
         <title>Docking</title>
         </head>
-        <center> <h1>Interfaz para acoplamientos Proteína-Ligando usando autodock y Chimera</h1></center>
+        <center> <h1>JUST IMAGINE: A Web Interface for Protein-Ligand Docking</h1></center>
           <BODY bgcolor="#f3fafc" text="black"> <div style="margin: 100px;">
 
           
     
         <br> <br>
           <p> 
-        Por favor inserte el ligando y la proteìna
+		  Please insert the protein and ligand files
         <p> 
-          Si quiere tener una prueba del sistema presione 
+          If you would like to try the software, click this button
         </p>
         
     
@@ -24,9 +24,9 @@
           
           
           <tr>
-          <td><center>Insertar Proteìna </center></td>
-          <td><center>Proteìna-ligando</center></td>
-          <td><center>Inserar Ligando</center></td>
+          <td><center>Insert Protein</center></td>
+          <td><center>Protein-Ligand</center></td>
+          <td><center>Insert Ligand</center></td>
     
           </tr>
     
@@ -39,14 +39,14 @@
 
           <tr>
         <form action="#" method="post" enctype="application/x-www-form-urlencoded">
-          <td><label for="pdb1">Insertar P</label><br> 
+          <td><label for="pdb1">Insert P</label><br> 
           <input type="file" name="pdb1" id="pdb1" required> 
           </td>
           <td> 
           
           </td>
           <td>
-              <label for="pdb1">Insertar P</label><br> 
+             <label for="pdb1">Insert P</label><br> 
           <input type="file" name="pdb1" id="pdb1" required> 
               
           </td>
@@ -69,7 +69,7 @@
           </table></center>
         
           <br>
-          <p>Aquì podrás observar un ejemplo utilizando los el lingando "" y la proteína ""</p><br>
+          <p>Here is an example using dihydrofolate reductase (1ra2) and tetrahydrofolate</p><br>
           <form action="" method="" enctype=""></form>
         
           <input type="submit" value="login">  
